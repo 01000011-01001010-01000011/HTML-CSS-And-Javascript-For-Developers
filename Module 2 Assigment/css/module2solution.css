@@ -1,0 +1,226 @@
+*{
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+h1{
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 2.75em;
+
+    text-align: center;
+
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    
+}
+
+.menuSection{     
+
+    position: relative;
+
+    background-image: linear-gradient(to bottom, rgb(235, 235, 235), rgb(190, 190, 190));
+
+    border: 1px solid black;         
+    
+}
+
+.titleSection{
+
+    position: absolute;
+
+    right: 0;
+
+    padding: 0 0 5px 5px;
+
+    border: 1px solid black;
+        
+}
+
+.titleSection p{
+
+    color: #ffffff;
+
+    font-size: 1.25em;
+
+    text-align: center;
+
+}
+
+.sectionDescription{
+
+    margin: 5%;
+
+}
+
+#section1 .titleSection{
+
+    background-color: blue;
+       
+}
+
+#section2 .titleSection{
+
+    background-color: red;
+
+}
+
+#section3 .titleSection{
+
+    background-color: green;
+
+}
+
+@media screen and (min-width: 50px){
+
+    h1{
+
+        font-size: 2.25em;
+
+    }
+
+    .col-sm-1{
+
+        width: 100%;
+
+        float: left;
+
+        margin-top: 5%;
+     
+    }
+
+    .menuSection{
+    
+        width: 90%;   
+
+        margin: 0 5% 0 5%;
+                      
+    }
+
+    .titleSection{
+
+        width: 40%;
+
+    }
+
+    .titleSection p{
+
+        font-size: 1em;
+
+    }
+
+    .sectionDescription{
+
+        margin: 20% 5% 5% 5%;
+
+    }
+  
+
+}
+
+@media screen and (min-width: 768px){
+
+    h1{
+
+        font-size: 2.5em;
+
+    }
+    
+    .col-md-2{
+
+        width: 50%;
+
+        float: left;
+
+    }
+
+    .menuSection{
+    
+        width: 90%;   
+                                    
+    }
+
+    #section3{
+
+        width: 95%;
+
+        margin-left: 2.5%;
+
+    }
+
+
+    .titleSection{
+
+        width: 35%;
+
+    }
+
+    .titleSection p{
+
+        font-size: 1.25em;
+
+    }
+
+    .sectionDescription{
+
+        margin: 15% 2% 5% 2%;
+
+    }
+
+    #description3{
+
+        margin-top: 10%;
+
+    }
+   
+
+}
+
+@media screen and (min-width: 992px){
+    
+    .col-lg-3{
+
+        width: 33.33%;
+
+        float: left;
+
+    }
+
+    .menuSection, #section3{
+    
+        width: 95%;   
+
+        margin: 0 2% 0 2%;
+                      
+    }
+
+    .titleSection{
+
+        width: 35%;
+
+    }
+
+    #description3{
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    .sectionDescription, #description3{
+
+        margin: 10% 2% 5% 2%;
+
+        padding: 2% 0 2% 5%;
+
+    }
+  
+}
+
