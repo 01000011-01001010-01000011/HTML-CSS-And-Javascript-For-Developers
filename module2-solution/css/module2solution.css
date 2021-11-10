@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 
     box-sizing: border-box;
@@ -157,4 +158,165 @@ h1{
 
     }
 
+=======
+*{
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+h1{
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    text-align: center;
+
+    margin-top: 5%;
+
+}
+
+.menuSection{     
+
+    position: relative;
+
+    float: left;
+               
+    background-image: linear-gradient(to bottom, rgb(235, 235, 235), rgb(190, 190, 190));
+
+    border: 1px solid black;           
+    
+}
+
+.sectionTitle{
+
+    position: relative;
+    
+    float: right;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    border: 1px solid black;
+
+    border-top: none;
+
+    border-right: none;
+
+}
+
+#section1Title{
+
+    background-color: #0000ff;
+   
+}
+
+#section2Title{
+
+    background-color: rgb(0, 167, 0);
+   
+}
+
+#section3Title{
+
+    background-color: #ff0000;
+   
+}
+
+@media screen and (min-width: 150px){
+
+   #section1, #section2, #section3{
+
+        width: 90%;
+
+        margin: 5%;
+
+   }
+
+   .sectionTitle{
+
+        width: 35%;
+        
+   }
+
+    .sectionDescription{
+
+        position: relative;
+
+        width: 90%;
+
+        margin: 10% auto 2% auto;
+ 
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    
+    #section1, #section2{
+            
+        width: 42%;    
+
+        margin-top: 5%;
+        
+        margin-bottom: 2%;
+
+    }
+
+    #section1{
+
+        margin-left: 5%;
+
+        margin-right: 1%;
+
+    }
+
+    #section3{
+
+        width: 90%;
+
+        margin: 0 5% 0 5%;
+
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    #section1, #section2, #section3{
+
+        width: 30%;
+
+        margin: 0;
+        
+    }
+
+    #section1, #section2, #section3{
+
+        margin-top: 5%;
+
+    }
+
+
+    #section1{
+
+        margin-left: 3%;
+
+    }
+
+    #section2{
+
+        margin-left: 2%;
+
+        margin-right: 2%;
+
+    }
+
+>>>>>>> cd07701a4c5dc32513fb2ce60712e749a63c1f19
 }
